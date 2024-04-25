@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            animation-name: move2;
+            animation-delay: 2s;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: 5;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
+        }
+         @keyframes move2 {
+
+            from{
+
+            }
+            to{
+                transform: translatex(500px);
+            }
+            
+        }
+         @keyframes move2 {
+
+            0%{
+                transform: translate(0);
+                transform: rotate(45deg);
+            }
+            10%{
+               
+            }
+            50%{
+               
+                background-color: chartreuse;
+            }
+           
+            100%{
+                transform: translatex(500px);
+                background-color: darkgoldenrod;
+                width: 300px;
+                border-radius: 50%;
+            }
+            
+        } 
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+    
+</body>
+</html>
