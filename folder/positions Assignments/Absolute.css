@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.main{
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border: 3px solid rgb(207, 50, 50);
+  position: relative;
+  overflow: hidden;
+}
+.main:hover  #one{
+top: 0px;
+left: 0;
+}
+.boxes{
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  /* display: inline-block; */
+  
+}
+#one{
+  color: white;
+ background-color: rgb(0, 0, 0,0.6);
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  transition-duration: 1s;
+ 
+}
+
+#two{
+
+  background-image: url(/bg\ pic.avif);
+ 
+}
+
+
+
+
+/* .container{
+  height: 200px;
+  width: 200px;
+  border: 1px solid rgb(226, 38, 38);
+  display: inline-block;
+ 
+
+}
+#container-1{
+  float: right;
+}
+
+#child{
+  height: 100px;
+  width: 100px;
+  border: 2x solid palevioletred;
+} */
