@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DropDown</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    .sec-one{
+      width: 100%;
+      height: auto;
+    }
+    .header-top{
+      width: 50%;
+      height: 40px;
+      background-color: bisque;
+      margin-top: 50px;
+      margin-left: 25%;
+      
+    }
+    
+    .ul-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      list-style: none;
+    }
+    .link:hover{
+      background-color: cadetblue;
+    }
+    .ul-list > li > a {
+      font-size: 20px;
+      text-decoration: none;
+    }
+    #home{
+      position: relative;
+    }
+    .dropdown{
+      width: 130px;
+      background-color: rgb(236, 203, 126);
+      display: none;
+      position: absolute;
+      left: -40px;
+      text-align: center;
+      list-style: none;
+      
+      
+    }
+    /* .link:hover ~ .dropdown{
+      display: block;
+
+    } */
+    #home:hover > .dropdown{
+      display: block;
+    }
+    .drop-list1{
+      padding-top: 10px;
+    }
+    .dropdown-link{
+      font-size: 20px;
+      text-decoration: none;
+    }
+    .dropdown-link:hover{
+      background-color: aqua;
+    }
+    .dropdown2{
+      width: 130px;
+      /* background-color: rgb(14, 172, 111); */
+      display: none;
+      position: absolute;
+      left: 90px;
+      text-align: center;
+      list-style: none;
+    }
+    #sport{
+      position: relative;
+    }
+    #sport:hover > .dropdown2{
+      display: block;
+    }
+    .dropdown2:hover li{
+      background-color: chartreuse;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <section class="sec-one">
+    <header class="header-top">
+      <nav class="navbar">
+        <ul class="ul-list">
+          <li id="home"><a class="link" href="#">Home &#9662</a>
+            <ul class="dropdown">
+              <li class="drop-list1"><a class="dropdown-link" href="#">&#9656 posts </a></li>
+              <li class="drop-list1"><a class="dropdown-link"  href="#">&#9656 Blog </a></li>
+              <li class="drop-list1"><a class="dropdown-link"  href="#">&#9656 news</a></li>
+              <li class="drop-list1" id="sport"><a class="dropdown-link"  href="#">&#9656 sports</a>
+                  <ul class="dropdown2">
+                    <li class="drop-list1">Gmmes</li>
+                    <li class="drop-list1">play</li>
+                    <li class="drop-list1">cricket</li>
+                  </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="link" href="#">Blog</a></li>
+          <li><a class="link" href="#">Posts</a></li>
+          <li><a class="link" href="#">Downloads</a></li>
+          <li><a class="link" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  </section>
+</body>
+</html>
