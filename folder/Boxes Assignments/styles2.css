@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.box1{
+  height: 120px;
+  width: 700px;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.one{
+  height: 40px;
+  width: 70px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 35px;
+ 
+  
+ 
+}
+.one p{
+  text-align: center;
+  
+
+}
+.child{
+  height: 170px;
+  width: 300px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-left: 5%;
+  
+
+}
+.box3{
+  height: 160px;
+  width: 700px;
+  border: 2px solid black;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}

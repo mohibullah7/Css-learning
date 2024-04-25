@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  text-align: center;
+  margin-top: 60px;
+  border: 1px solid;
+  border-color: rgb(6, 6, 6);
+  height: 200px;
+  width: 50%;
+  margin-left: 25%;
+  background-color: rgb(100, 136, 212);
+
+}
+
+#box p {
+  background-color: red;
+  display: inline;
+  /* text-align: center; */
+  line-height: 50px;
+
+}
+
+.one {
+  display: inline-block;
+  border: 4px solid green;
+  height: 50px;
+  width: 100px;
+
+
+
+  background-color: white;
+
+
+}
+
+.two {
+  display: inline-block;
+  border: 1px solid black;
+  height: 50px;
+  width: 100px;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 25px;
+  background-color: white;
+
+}
+
+.three {
+
+  display: inline-block;
+  border: 1px solid black;
+  height: 50px;
+  width: 100px;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 25px;
+  background-color: white;
+
+}
+
+.parent {
+  margin-left: 15%;
+
+
+}
+
+.parent p {
+  line-height: 160px;
+  background-color: red;
+  display: inline;
+
+
+}
+
+.box2 {
+  text-align: center;
+  margin: 80px;
+  margin-left: 50px;
+  border: 1px solid black;
+  height: 160px;
+  width: 300px;
+  display: inline-block;
+  background-color: turquoise;
+  background-image: url(/rose1.jpeg);
+  background-position: center;
+
+}
+
+.box3 {
+  /* margin-top: 30px; */
+  text-align: center;
+  margin-left: 80px;
+  border: 1px solid black;
+  height: 160px;
+  width: 300px;
+  display: inline-block;
+  background-color: turquoise;
+  background-image: url(/rose2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.box4 {
+  margin-left: 25%;
+  border: 1px solid black;
+  height: 150px;
+  width: 700px;
+  background-color: cadetblue;
+
+}
+
+.threeBox {
+  border: 1px solid black;
+  height: 150px;
+  width: 300px;
+  display: inline-block;
+  background-color: blue;
+  margin: 30px;
+  margin-left: 50px;
+
+}
+
+.lastbox {
+  border: 1px solid black;
+  height: 150px;
+  width: 700px;
+  margin-left: 25%;
+  background-color: cadetblue;
+}
+
+.pr {
+  text-align: center;
+  height: 50px;
+  width: 300px;
+  border: 1px solid black;
+  align-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 210px;
+  margin-right: 100px;
+  background-color: white;
+}
+
+.pr p {
+  display: inline;
+  line-height: 50px;
+  background-color: red;
+}
+
+.text1 {
+  height: 50px;
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.text1 p {
+  text-align: center;
+  line-height: 50px;
+}
